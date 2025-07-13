@@ -24,8 +24,10 @@ This project is made using tools I love working with:
 
  📁 Available Commands
 
-  bash
-> about        My Introduction
-> projects     See what I’ve built
-> skills       Tools and tech I know
-> contact      Let’s connect!
+about – My introduction
+
+projects – See what I’ve built
+
+skills – Tools and tech I know
+
+contact – Let’s connect!
