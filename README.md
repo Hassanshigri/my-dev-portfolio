@@ -6,7 +6,6 @@ Welcome to my terminal-style portfolio — a fun, nerdy little experiment where 
 If you enjoy the simplicity and power of a terminal, you're in for a treat. Type a few commands, poke around, and get to know me the geeky way.
 
 
-
  🚀 What’s Inside
 
 -> Built with Next.js and Tailwind CSS
@@ -15,18 +14,13 @@ If you enjoy the simplicity and power of a terminal, you're in for a treat. Type
 -> Some animated ASCII magic ✨ to keep things interesting
 
 
-
  🛠️ Tech Stack
 
 This project is made using tools I love working with:
 
--> ⚛️ React (for all the dynamic stuff)  
 -> ⚡ Next.js (to keep things fast and smooth)  
--> 🎨 Tailwind CSS (for styling without the hassle)  
 -> 🎬 Framer Motion (to add subtle animations)  
 -> ⌨️ Custom CLI logic to simulate that terminal feel
-
-
 
  📁 Available Commands
 
