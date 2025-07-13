@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 import MatrixRain from '@/components/MatrixRain';
-import Avatar3D from '@/components/Avatar3D';
+// import Avatar3D from '@/components/Avatar3D';
 import Terminal from '@/components/Terminal';
 
 export default function Home() {
@@ -29,14 +29,21 @@ export default function Home() {
             {/* <p className="text-green-500 text-sm mt-2">Cybersecurity Enthusiast</p> */}
           </div>
           
-          <div className="flex-1 flex items-center justify-center">
-            <Avatar3D />
-          </div>
+         <div className="flex-1 flex items-center justify-center">
+  <div className="bg-black border border-green-500 rounded-xl p-4 shadow-neon transition-transform transform hover:scale-105 hover:shadow-neon-bright animate-swing">
+    <img
+      src="/images/ppic.jpg"
+      alt="My Avatar"
+      className="h-72 w-72 object-cover rounded-md"
+    />
+  </div>
+</div>
+
           
           <div className="text-center text-green-600 text-xs space-y-1">
             <p>STATUS: ONLINE</p>
             <p>SECURITY: ENCRYPTED</p>
-            <p>LOCATION: SAN FRANCISCO, CA</p>
+            <p>LOCATION: ISLAMABAD, PAKISTAN</p>
           </div>
         </div>
 
