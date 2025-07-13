@@ -24,10 +24,12 @@ This project is made using tools I love working with:
 
  📁 Available Commands
 
-about – My introduction
-
-projects – See what I’ve built
-
-skills – Tools and tech I know
-
-contact – Let’s connect!
+  help        - Show this help message
+  about       - Learn about me
+  projects    - View my recent projects
+  skills      - See my technical skills
+  experience  - View my work experience
+  education   - See my educational background
+  social      - Find me on social media
+  clear       - Clear the terminal
+  whoami      - Display current user info
