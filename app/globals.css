@@ -49,24 +49,32 @@
   .terminal-glow {
     text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 15px #00FF00;
   }
-  
+
   .matrix-char {
     color: #00AA00;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 700;
   }
-  
+
   .terminal-cursor {
     animation: blink 1s infinite;
   }
-  
+
   @keyframes blink {
     0%, 50% { opacity: 1; }
     51%, 100% { opacity: 0; }
   }
-  
+
   .neon-border {
     box-shadow: 0 0 5px #00FF00, inset 0 0 5px #00FF00;
     border: 1px solid #00FF00;
+  }
+
+  .shadow-neon {
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00 inset;
+  }
+
+  .shadow-neon-bright {
+    box-shadow: 0 0 12px #39ff14, 0 0 30px #39ff14 inset;
   }
 }
