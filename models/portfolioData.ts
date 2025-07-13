@@ -53,105 +53,100 @@ export interface PortfolioData {
 export const portfolioData: PortfolioData = {
   personal: {
     name: "Muhammad Hassan",
-    title: "Full-Stack Developer ", //& Cybersecurity Enthusiast
-    bio: "Passionate developer with 5+ years of experience building scalable web applications and exploring cybersecurity. Love hacking problems and creating elegant solutions.",
-    location: "San Francisco, CA"
+    title: "Full Stack Developer | AI Enthusiast | Laravel Specialist ", //& Cybersecurity Enthusiast
+    bio: "I am a full stack dev who loves building smart, clean web apps with AI. Always up for turning ideas into real tools!",
+    location: "Islamabad, Pakistan"
   },
   skills: {
-    languages: ["JavaScript", "TypeScript", "Python", "Go", "Rust", "C++"],
+    languages: ["JavaScript", "TypeScript", "Python", "php", "C++"],
     frameworks: ["React", "Next.js", "Node.js", "Express", "FastAPI", "Django"],
-    tools: ["Docker", "Kubernetes", "AWS", "Git", "Linux", "Vim"],
-    databases: ["PostgreSQL", "MongoDB", "Redis", "ElasticSearch"]
+    tools: ["React", "Nextjs", "Laravel", "GitHub", "Linux", "Vercel"],
+    databases: ["MySQL", "MongoDB", "SQL"]
   },
   projects: [
     {
       id: "1",
-      name: "SecureChat",
-      description: "End-to-end encrypted messaging app with perfect forward secrecy",
-      technologies: ["React", "Node.js", "WebRTC", "Socket.io", "Cryptography"],
-      github: "https://github.com/johndoe/securechat",
-      demo: "https://securechat-demo.com",
+      name: "Code-Canvas",
+      description: " Code-Canvas is a collaborative, real-time code editor built for seamless coding, sharing, and teamwork in the browser. ",
+      technologies: ["Nextjs", "Node.js", "WebRTC", "Socket.io", "Openai","vercel"],
+      github: "https://github.com/Hassanshigri/Final_Year_Project",
+      demo: "https://code-canvas-pink.vercel.app/",
       status: "completed"
     },
     {
       id: "2", 
-      name: "VulnScanner",
-      description: "Automated vulnerability scanner for web applications",
-      technologies: ["Python", "Selenium", "SQLMap", "Nmap", "Docker"],
-      github: "https://github.com/johndoe/vulnscanner",
+      name: "my-dev-portfolio",
+      description: "A terminal-inspired developer portfolio built with Next.js. Navigate my work and story through a command-line interface.",
+      technologies: ["Nextjs", "React", "Tailwind CSS", "Framer Motion", "Vercel "],
+      github: "https://github.com/Hassanshigri/my-dev-portfolio",
       status: "in-progress"
-    },
-    {
-      id: "3",
-      name: "DeepCode",
-      description: "AI-powered code review tool using machine learning",
-      technologies: ["Python", "TensorFlow", "FastAPI", "PostgreSQL", "Docker"],
-      github: "https://github.com/johndoe/deepcode",
-      status: "completed"
     }
+    // {
+    //   id: "3",
+    //   name: "DeepCode",
+    //   description: "AI-powered code review tool using machine learning",
+    //   technologies: ["Python", "TensorFlow", "FastAPI", "PostgreSQL", "Docker"],
+    //   github: "https://github.com/johndoe/deepcode",
+    //   status: "completed"
+    // }
   ],
   experience: [
     {
       id: "1",
-      company: "CyberTech Solutions",
-      position: "Senior Full-Stack Developer",
-      duration: "2022 - Present",
-      description: "Leading development of security-focused web applications and penetration testing tools",
-      technologies: ["React", "Node.js", "Python", "AWS", "Docker", "Kubernetes"]
-    },
-    {
-      id: "2",
-      company: "StartupX",
+      company: "Alright Tech Private Limited",
       position: "Full-Stack Developer",
-      duration: "2020 - 2022", 
-      description: "Built scalable e-commerce platform serving 100K+ users",
-      technologies: ["Vue.js", "Django", "PostgreSQL", "Redis", "Celery"]
-    },
-    {
-      id: "3",
-      company: "TechCorp",
-      position: "Junior Developer",
-      duration: "2019 - 2020",
-      description: "Developed internal tools and maintained legacy systems",
-      technologies: ["JavaScript", "PHP", "MySQL", "jQuery", "Bootstrap"]
+      duration: "2024 - 2025",
+      description: "Full Stack Developer at Alright tech, building and maintaining scalable web applications using modern frontend and backend technologies.",
+      technologies: ["React", "Node.js", "Python", "AWS", "Docker"]
     }
+    // {
+    //   id: "2",
+    //   company: "StartupX",
+    //   position: "Full-Stack Developer",
+    //   duration: "2020 - 2022", 
+    //   description: "Built scalable e-commerce platform serving 100K+ users",
+    //   technologies: ["Vue.js", "Django", "PostgreSQL", "Redis", "Celery"]
+    // },
+    // {
+    //   id: "3",
+    //   company: "TechCorp",
+    //   position: "Junior Developer",
+    //   duration: "2019 - 2020",
+    //   description: "Developed internal tools and maintained legacy systems",
+    //   technologies: ["JavaScript", "PHP", "MySQL", "jQuery", "Bootstrap"]
+    // }
   ],
   education: [
     {
       id: "1",
-      institution: "University of California, Berkeley",
+      institution: "The University Institute of Information Technology (UIIT) rwp",
       degree: "B.S. Computer Science",
-      duration: "2015 - 2019",
-      description: "Focused on algorithms, data structures, and cybersecurity"
+      duration: "2021 - 2025",
+      description: "Focused on  strong foundation in software development, data structures, algorithms, databases, and emerging technologies."
     },
     {
       id: "2",
-      institution: "Certified Ethical Hacker (CEH)",
-      degree: "Cybersecurity Certification",
+      institution: "Code Academy",
+      degree: "Web Development Course",
       duration: "2021",
-      description: "Advanced penetration testing and vulnerability assessment"
+      description: "A hands-on course covering front-end and back-end technologies to build responsive, full-stack web applications."
     }
   ],
   social: [
     {
       platform: "GitHub",
-      username: "johndoe",
-      url: "https://github.com/johndoe"
+      username: "Hassanshigri",
+      url: "https://github.com/Hassanshigri"
     },
     {
       platform: "LinkedIn", 
-      username: "john-doe-dev",
-      url: "https://linkedin.com/in/john-doe-dev"
-    },
-    {
-      platform: "Twitter",
-      username: "@johndhacker",
-      url: "https://twitter.com/johndhacker"
+      username: "muhammad hassan",
+      url: "https://www.linkedin.com/in/shigri/"
     },
     {
       platform: "Email",
-      username: "john@example.com",
-      url: "mailto:john@example.com"
+      username: "hassanshigri435@gmail.com",
+      url: "mailto:hassanshigri435@gmail.com"
     }
   ]
 };
