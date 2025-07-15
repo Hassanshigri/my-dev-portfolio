@@ -55,7 +55,7 @@ export interface PortfolioData {
 export const portfolioData: PortfolioData = {
   personal: {
     name: "Muhammad Hassan",
-    title: "Full Stack Developer | AI Enthusiast | Laravel Specialist",
+    title: "Full Stack Developer | AI Enthusiast | Web Specialist",
     bio: "I am a full stack dev who loves building smart, clean web apps with AI. Always up for turning ideas into real tools!",
     location: "Islamabad, Pakistan"
   },
@@ -82,6 +82,15 @@ export const portfolioData: PortfolioData = {
       technologies: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Vercel"],
       github: "https://github.com/Hassanshigri/my-dev-portfolio",
       status: "in-progress"
+    },
+     {
+      id: "3",
+      name: "ShopVerse",
+      description: "ShopVerse is a modern e-commerce platform offering a seamless and user-friendly shopping experience.",
+      technologies: ["Vuejs", "React", "Tailwind CSS", "Vercel"],
+      github: "https://github.com/Hassanshigri/ShopVerse.git",
+      demo: "https://shop-verse-jet-mu.vercel.app/",
+      status: "completed"
     }
   ],
   experience: [
