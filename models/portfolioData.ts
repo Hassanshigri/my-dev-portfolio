@@ -91,6 +91,15 @@ export const portfolioData: PortfolioData = {
       github: "https://github.com/Hassanshigri/ShopVerse.git",
       demo: "https://shop-verse-jet-mu.vercel.app/",
       status: "completed"
+    },
+     {
+      id: "3",
+      name: "Responsive page for attendance",
+      description: "A mobile-friendly and responsive page to mark, view, and manage student attendance seamlessly across devices. Designed for real-time updates and clear status tracking.",
+      technologies: ["HTML", "Tailwind CSS", "VanilaJS"],
+      github: "https://github.com/Hassanshigri/Responsive-Attendance-Table.git",
+      demo: "https://attendance-tracker-vanilla.vercel.app/",
+      status: "completed"
     }
   ],
   experience: [
